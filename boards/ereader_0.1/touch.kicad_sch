@@ -1949,7 +1949,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1n/10v"
+		(property "Value" "0n1/10v"
 			(at 142.494 38.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2271,7 +2271,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1n/10v"
+		(property "Value" "0n1/10v"
 			(at 110.49 38.0999 0)
 			(show_name no)
 			(do_not_autoplace no)

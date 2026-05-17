@@ -5948,7 +5948,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2u2/16v"
+		(property "Value" "2u2/10v"
 			(at 119.38 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6683,7 +6683,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1u/10v"
+		(property "Value" "1u/25v"
 			(at 97.79 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2674,7 +2674,7 @@
 		(dnp no)
 		(uuid "0b2d49e4-bb62-4aeb-bfc6-965b4fa1ca46")
 		(property "Reference" "C2"
-			(at 92.456 58.166 90)
+			(at 91.948 58.166 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2683,7 +2683,7 @@
 				)
 			)
 		)
-		(property "Value" "1u/10v"
+		(property "Value" "1u/25v"
 			(at 101.092 58.166 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2757,7 +2757,7 @@
 		(dnp no)
 		(uuid "0ecc64ec-fe9b-4886-96e9-0601628dfb95")
 		(property "Reference" "C4"
-			(at 92.456 68.326 90)
+			(at 91.948 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2851,7 +2851,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.47r"
+		(property "Value" "0R47"
 			(at 46.99 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3009,7 +3009,7 @@
 		(dnp no)
 		(uuid "1bd72ef0-0998-4686-8b23-994b6615e5fa")
 		(property "Reference" "C3"
-			(at 92.456 63.246 90)
+			(at 91.948 63.246 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3436,7 +3436,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uf/25V"
+		(property "Value" "1u/25v"
 			(at 114.3 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3673,7 +3673,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1u/10V"
+		(property "Value" "1u/25v"
 			(at 25.4 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4258,7 +4258,7 @@
 		(dnp no)
 		(uuid "a3fbbaa0-d366-4371-829a-336f8dff0fd5")
 		(property "Reference" "C1"
-			(at 114.046 30.226 90)
+			(at 113.538 30.226 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4267,7 +4267,7 @@
 				)
 			)
 		)
-		(property "Value" "1uf/25V"
+		(property "Value" "1u/25v"
 			(at 122.682 30.226 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4553,7 +4553,7 @@
 		(dnp no)
 		(uuid "be778101-2b7a-45c4-82db-5d3b8160a40b")
 		(property "Reference" "C5"
-			(at 92.456 73.406 90)
+			(at 91.948 73.406 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
