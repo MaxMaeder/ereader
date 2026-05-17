@@ -1,0 +1,148 @@
+(footprint "NSR05F40"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5fd775b1-56f9-4499-95c5-22b4b95e5b60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "NSR05F40"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5f1b7df9-e89f-4939-893b-a49d75e4e0cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e21b5a93-aebb-41ec-af67-97dcbb601c96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "307f5696-61db-485c-80ae-33173d42837f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.7 -0.4)
+		(end -0.7 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d6038ef0-182f-420b-b020-cc05ad2826f2")
+	)
+	(fp_line
+		(start -0.7 0.4)
+		(end 0.55 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8772e5f2-2a2e-444f-99bd-c9f7d9b5bcf4")
+	)
+	(fp_line
+		(start 0.55 -0.4)
+		(end -0.7 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9671f76e-a2d3-417d-8a16-21ac357d95b3")
+	)
+	(fp_rect
+		(start -0.7 -0.4)
+		(end 0.7 0.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "dbfa1ee4-a0c2-4539-a3bc-71444f80b3a3")
+	)
+	(fp_rect
+		(start -0.45 -0.25)
+		(end 0.45 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "4e89f3c5-ae12-4ebb-987c-0e15f9855c57")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dfb17ae7-1424-47fa-8491-ab03f6394798")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.365 0)
+		(size 0.47 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d26ae891-75f4-493e-99cd-c5a7f9dc3aae")
+	)
+	(pad "2" smd roundrect
+		(at 0.3 0)
+		(size 0.6 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1958333333)
+		(uuid "eaaa4d97-f59e-474d-a21a-56d7c1440b8d")
+	)
+	(embedded_fonts no)
+	(model "/Users/maxmaeder/local-root/ereader/boards/libraries/3D-Models/NSR05F40NXT5G.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

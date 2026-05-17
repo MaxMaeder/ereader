@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "nPM1300") (type "KiCad") (uri "/Users/maxmaeder/local-root/ereader/boards/libraries/nPM1300.kicad_sym") (options "") (descr ""))
+)
