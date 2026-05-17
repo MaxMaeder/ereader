@@ -3677,20 +3677,12 @@
 		(uuid "ccfac5a5-22c4-40b6-9c8d-eb147ead7a10")
 	)
 	(no_connect
-		(at 173.99 78.74)
-		(uuid "d13a6ce8-8100-4826-90fc-aae1e4acba8c")
-	)
-	(no_connect
 		(at 173.99 81.28)
 		(uuid "d60b4ace-d322-441c-966e-a105d1153b22")
 	)
 	(no_connect
 		(at 173.99 93.98)
 		(uuid "e2fe8b4b-3d1f-4327-b63f-286b5a3d2b39")
-	)
-	(no_connect
-		(at 173.99 83.82)
-		(uuid "ea0cd7c6-ede6-4708-8ce2-ddac3bbf0f32")
 	)
 	(wire
 		(pts
@@ -3721,6 +3713,16 @@
 			(type default)
 		)
 		(uuid "034e97fd-2a3d-4cfc-aece-4c04b7181bca")
+	)
+	(wire
+		(pts
+			(xy 175.26 78.74) (xy 175.26 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a300a4-332e-494c-8ca2-cc89d73f7e04")
 	)
 	(wire
 		(pts
@@ -3791,6 +3793,16 @@
 			(type default)
 		)
 		(uuid "14ce403e-c837-4c3e-a774-40218ff897f0")
+	)
+	(wire
+		(pts
+			(xy 173.99 83.82) (xy 175.26 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15548193-1225-4a12-a871-eff715b19ee9")
 	)
 	(wire
 		(pts
@@ -4314,6 +4326,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 83.82) (xy 175.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95b6ecf-b794-452c-b58f-421578eaebbd")
+	)
+	(wire
+		(pts
 			(xy 109.22 53.34) (xy 110.49 53.34)
 		)
 		(stroke
@@ -4551,6 +4573,16 @@
 			(type default)
 		)
 		(uuid "eb97d1a2-7e1c-43d0-9af4-7dadd77e37cb")
+	)
+	(wire
+		(pts
+			(xy 173.99 78.74) (xy 175.26 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f036af8f-2468-439d-a6b0-e04e89db3fd4")
 	)
 	(wire
 		(pts
@@ -4967,6 +4999,83 @@
 			(project "ereader_0.1"
 				(path "/653bb34e-da0b-4e65-b882-449d139ca154/07f3e117-9b9e-4524-a44c-718345fed38d"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 175.26 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0803956a-eba2-4eb2-be1a-b30671bd8ac4")
+		(property "Reference" "#PWR065"
+			(at 175.26 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 175.26 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 175.26 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eda9f538-c309-4642-bbd4-5a75d3e51d9b")
+		)
+		(instances
+			(project "ereader_0.1"
+				(path "/653bb34e-da0b-4e65-b882-449d139ca154/07f3e117-9b9e-4524-a44c-718345fed38d"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -5733,6 +5842,85 @@
 			(project "ereader_0.1"
 				(path "/653bb34e-da0b-4e65-b882-449d139ca154/07f3e117-9b9e-4524-a44c-718345fed38d"
 					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "344ca08e-bf2d-4052-8ed4-a6ce06efa98d")
+		(property "Reference" "#PWR064"
+			(at 175.26 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a8d206f-b189-4080-a745-f0ea8719aec9")
+		)
+		(instances
+			(project "ereader_0.1"
+				(path "/653bb34e-da0b-4e65-b882-449d139ca154/07f3e117-9b9e-4524-a44c-718345fed38d"
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
