@@ -29,7 +29,7 @@ export async function loadEpub(file: File): Promise<EpubState> {
   const paragraphs = await extractParagraphs(book);
   book.destroy();
 
-  const fontSize = 18;
+  const fontSize = 22;
   const pages = paginate(paragraphs, fontSize);
 
   return { paragraphs, pages, currentPage: 0, fontSize };

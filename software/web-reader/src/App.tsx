@@ -249,11 +249,11 @@ export default function App() {
                       {fontSize}px
                     </span>
                   </div>
-                  {fontSize !== 18 && (
+                  {fontSize !== 22 && (
                     <Button
                       variant="ghost"
                       size="sm"
-                      onClick={() => setFontSizeVal(18)}
+                      onClick={() => setFontSizeVal(22)}
                       className="h-7 px-2 text-xs"
                     >
                       <RotateCcw className="h-3 w-3 mr-1" />
