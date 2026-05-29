@@ -1,0 +1,10 @@
+[project]
+name = "bmp-generator"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.14.3",
+    "ebooklib>=0.20",
+    "pillow>=12.2.0",
+]
