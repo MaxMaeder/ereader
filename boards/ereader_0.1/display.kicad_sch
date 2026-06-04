@@ -1744,6 +1744,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "To Fix (left disp):\n- R2 -> 2R2\n- C34 -> 4u7\n"
+		(exclude_from_sim no)
+		(at 25.908 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07cf2398-c7ae-4175-93f5-d13c941da3d6")
+	)
 	(text "Ref: https://files.waveshare.com/upload/3/37/5.83inch_e-Paper_V2_Specification.pdf"
 		(exclude_from_sim no)
 		(at 60.96 101.346 0)
@@ -2851,7 +2862,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R47"
+		(property "Value" "2R2"
 			(at 46.99 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)

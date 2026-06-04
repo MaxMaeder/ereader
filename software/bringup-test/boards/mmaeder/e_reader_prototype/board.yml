@@ -1,0 +1,6 @@
+board:
+  name: e_reader_prototype
+  full_name: e_reader_prototype
+  vendor: mmaeder
+  socs:
+    - name: nrf52840

@@ -1,0 +1,10 @@
+identifier: e_reader_prototype/nrf52840
+name: E Reader Prototype
+vendor: mmaeder
+type: mcu
+arch: arm
+ram: 256
+flash: 472
+toolchain:
+  - zephyr
+supported: []

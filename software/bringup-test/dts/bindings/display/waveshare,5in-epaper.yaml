@@ -1,0 +1,21 @@
+# Copyright (c) 2025 Max Maeder
+# SPDX-License-Identifier: Apache-2.0
+
+description: |
+  Waveshare 5-inch e-Paper display (960x552, SE8350 controller).
+  Uses SSD1683-compatible command set.
+
+compatible: "waveshare,5in-epaper"
+
+include: [mipi-dbi-spi-device.yaml, display-controller.yaml]
+
+properties:
+  busy-gpios:
+    type: phandle-array
+    required: true
+    description: |
+      BUSY pin. Active high (high = busy, low = idle).
+
+  softstart:
+    type: uint8-array
+    description: Booster Soft Start (cmd 0x0C) values (5 bytes).

@@ -1,0 +1,41 @@
+# Copyright (c) 2025 Max Maeder
+# SPDX-License-Identifier: Apache-2.0
+
+description: |
+  Azoteq IQS323 3-channel capacitive touch sensor.
+
+  Configured for 3-button self-capacitance mode using the Zephyr input
+  subsystem.  The device communicates over I2C with an active-low RDY pin
+  that gates every bus transaction (the host may only read/write while
+  RDY is asserted).
+
+  Example devicetree node:
+
+    &i2c0 {
+        iqs323@44 {
+            compatible = "azoteq,iqs323";
+            reg = <0x44>;
+            rdy-gpios = <&gpio0 14 GPIO_ACTIVE_LOW>;
+            input-codes = <INPUT_KEY_0 INPUT_KEY_1 INPUT_KEY_2>;
+        };
+    };
+
+compatible: "azoteq,iqs323"
+
+include: i2c-device.yaml
+
+properties:
+  rdy-gpios:
+    type: phandle-array
+    required: true
+    description: |
+      GPIO connected to the RDY/MCLR pin of the IQS323.
+      The pin is active-low with an internal 200 kΩ pull-up.  It doubles
+      as the master-clear (hardware reset) input.
+
+  input-codes:
+    type: array
+    required: true
+    description: |
+      Array of exactly 3 input event key codes (INPUT_KEY_* or INPUT_BTN_*)
+      corresponding to channels 0, 1, and 2.

@@ -1,0 +1,7 @@
+config EPD_SE8350
+	bool "SE8350 e-Paper display driver"
+	default y
+	depends on MIPI_DBI && SPI
+	help
+	  Driver for the SE8350 EPD controller (UC8179-compatible command set)
+	  used in Waveshare 5-inch e-Paper displays (960x552).
